@@ -1,0 +1,7 @@
+<div class="section">
+    <h3>Most Recent Projects</h3>
+    <div id="gitDownMessage" *ngIf="!gitSuccess">
+        <h5>We had some trouble getting to GitHub. It may be down at the moment.  <i class="bi bi-emoji-frown"></i></h5>
+    </div>
+    <project *ngFor="let p of projects" [project]="p" ></project>
+</div>

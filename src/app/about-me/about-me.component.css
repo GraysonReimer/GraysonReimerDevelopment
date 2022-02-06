@@ -1,0 +1,30 @@
+.paragraph-left {
+    top: 150px;
+    animation-name: swingFromLeft;
+    animation-delay: 200ms;
+}
+
+.paragraph-right {
+    top:300px;
+    animation-name: swingFromRight;
+    animation-delay: 1s;
+}
+
+p {
+    position: absolute;
+    margin: 20px;
+    animation-duration: 1000ms;
+    animation-fill-mode: both;
+    text-align: center;
+    line-height: 2em;
+}
+
+@keyframes swingFromLeft {
+    from { right: 100vw }
+    to { right: 0px }
+}
+
+@keyframes swingFromRight {
+    from { left: 100vw }
+    to { left: 0px }
+}

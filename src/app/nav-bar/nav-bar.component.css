@@ -1,6 +1,43 @@
 nav {
-    background-color: #333;
-    color: ghostwhite;
+    background-color: #16213E;
     border-radius: 0px 0px 30px 30px;
     padding: 10px 20px 10px 20px;
+}
+
+.navbar-right {
+    align-items: right;
+}
+
+.navbar-left {
+    align-items: left;
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+.active-nav-item {
+    background-color: #59ecff !important;
+    box-shadow: 0px 0px 10px 2px #59ecff;
+}
+
+.nav-section {
+    display: flex;
+    align-items: stretch;
+}
+
+.nav-item {
+    margin: 0px 3vw 0px 3vw;
+    display: inline-block;
+    background-color: #0F3460;
+    padding: 0px 20px 0px 20px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
 }

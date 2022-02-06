@@ -1,0 +1,44 @@
+
+.mainTitle {
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+#titlePt2 {
+    animation-delay: 2500ms;
+    opacity: 0;
+    color: #ffc400;
+    margin-top: 0px !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+     }
+    to { 
+        opacity: 100;
+    }
+}
+
+#pflImage {
+    width: 20em;
+    height: 20em;
+    margin: 30px auto 10px auto;
+    border-radius: 100%;
+    display: block;
+}
+
+#sectionWrapper {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#skillsSection {
+    float: left;
+    float: right;
+    font-size: x-large;
+    font-weight: bold;
+}
