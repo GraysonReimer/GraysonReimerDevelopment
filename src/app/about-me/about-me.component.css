@@ -1,11 +1,11 @@
 .paragraph-left {
-    top: 150px;
+    top: 175px;
     animation-name: swingFromLeft;
     animation-delay: 200ms;
 }
 
 .paragraph-right {
-    top:300px;
+    top: 40vh;
     animation-name: swingFromRight;
     animation-delay: 1s;
 }
@@ -17,6 +17,17 @@ p {
     animation-fill-mode: both;
     text-align: center;
     line-height: 2em;
+    text-align: center;
+}
+
+.solidSection {
+    margin: 20px;
+    height: 75vh;
+    opacity: 80%;
+}
+
+#paragraphWrapper {
+    position: relative;
 }
 
 @keyframes swingFromLeft {

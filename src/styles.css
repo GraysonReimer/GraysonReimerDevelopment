@@ -16,10 +16,16 @@ body {
 }
 
 .section {
-    background-color: #16213E;
+    background-color: #16213ea9;
     border-radius: 30px;
-    width: 40%;
+    width: auto;
     padding: 20px;
     margin: 20px;
-    flex: 1;
+}
+
+.solidSection {
+    background-color: #0F3460;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
 }

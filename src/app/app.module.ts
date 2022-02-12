@@ -10,8 +10,11 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { GithubShowcaseComponent } from './github-showcase/github-showcase.component';
 import { GitHubService } from './services/git-hub.service';
-import { GithubButtonComponent } from './github-button/github-button.component';
+import { MediaButtonComponent } from './media-button/media-button.component';
 import { ProjectComponent } from './project/project.component';
+import { AnimatedBackgroundComponent } from './animated-background/animated-background.component';
+import { ContactComponent } from './contact/contact.component';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +23,11 @@ import { ProjectComponent } from './project/project.component';
     NavBarComponent,
     AboutMeComponent,
     GithubShowcaseComponent,
-    GithubButtonComponent,
-    ProjectComponent
+    MediaButtonComponent,
+    ProjectComponent,
+    AnimatedBackgroundComponent,
+    ContactComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +35,9 @@ import { ProjectComponent } from './project/project.component';
     AppRoutingModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
-      { path: 'about', component: AboutMeComponent }
+      { path: 'about', component: AboutMeComponent },
+      { path: 'contact', component: ContactComponent },
+      { path: 'resume', component: ResumeComponent }
     ])
   ],
   providers: [
